@@ -14,7 +14,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sitecore.Feature.CDN</RootNamespace>
-    <AssemblyName>Sitecore.Feature.CDN</AssemblyName>
+    <AssemblyName>Sitecore.Feature.CDN.Azure</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -76,8 +76,9 @@
       <HintPath>..\..\..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Foundation.CDN">
-      <HintPath>..\..\..\..\..\Sitecore.Foundation.CDN\src\Foundation\CDN\code\bin\Sitecore.Foundation.CDN.dll</HintPath>
+    <Reference Include="Sitecore.Foundation.CDN, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Foundation.CDN.0.1.1\lib\net461\Sitecore.Foundation.CDN.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.8.2.161221\lib\NET452\Sitecore.Kernel.dll</HintPath>
